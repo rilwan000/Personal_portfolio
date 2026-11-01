@@ -1,0 +1,43 @@
+/* Additional responsive tuning for portfolio layout */
+
+@media (max-width: 640px) {
+  .brand-text small {
+    display: none;
+  }
+
+  .brand {
+    min-width: auto;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(2.2rem, 8vw, 3.2rem);
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.8rem, 7vw, 2.5rem);
+  }
+
+  .page-hero h1 {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .profile-card {
+    padding: 24px 18px 18px;
+  }
+
+  .avatar-circle {
+    width: 150px;
+    height: 150px;
+    font-size: 2.6rem;
+  }
+
+  .hero-actions,
+  .hero-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
